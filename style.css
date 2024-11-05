@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/img/White-Color-Abstract-Background-4k-Download.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login container styling */
+.login-container {
+    width: 300px;
+    padding: 30px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field group styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #070707;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button styling */
+.input-group input[type="submit"] {
+    background-color: #674abd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #719e73;
+}
+
+/* Forgot password link styling */
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
